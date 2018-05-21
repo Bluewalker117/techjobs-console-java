@@ -114,7 +114,6 @@ public class TechJobs {
         } else {
             for (HashMap<String, String> jobmap : someJobs){
                 System.out.println("*****");
-                //  System.out.println(jobmap.getClass().getName());
                 for (String entry : jobmap.keySet()){
                     String data = jobmap.get(entry);
                     System.out.println(entry + ": " + data);
